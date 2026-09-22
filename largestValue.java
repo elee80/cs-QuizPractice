@@ -22,5 +22,8 @@ int biggest = values[0];
 
   public static void main(String[] args){
     System.out.println(largestValue(new int[]{100}));
+System.out.println(largestValue(new int[]{100, 9, 10, 10001, 696969696, 67676767676767}));
+  System.out.println(largestValue(new int[]{10, 9, 8, 11}));
+
   }
 }
